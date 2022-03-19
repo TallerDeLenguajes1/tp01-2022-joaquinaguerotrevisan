@@ -74,6 +74,7 @@ int main(){
     punta = &a;
     puntb = &b;
     invertir(punta, puntb);
+    
 
     // Función Punto 3.e) --------------
     do
@@ -145,7 +146,7 @@ void order(int *puntc, int *puntd){
             printf("    - d (Valor mayor): %d\n\n", *puntd);
             */
 
-           invertir(puntc, puntd);
+            invertir(puntc, puntd);
 
         } else
         {

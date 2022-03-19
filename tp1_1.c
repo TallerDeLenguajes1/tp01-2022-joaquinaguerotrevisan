@@ -1,4 +1,4 @@
-// ---------- librerias
+// ---------- libreria
 
 #include <stdio.h>
 
@@ -8,12 +8,12 @@ int main(){
 
     printf("\n----- HOLA MUNDO -----\n\n");
 
-    // Variables
+    // Variables ---
     int *punt;
     int var = 10;
     punt = &var;
 
-    // Prints
+    // Prints ---
     printf("    - El contenido del puntero: %p \n", punt);
     printf("    - La direccion de memoria almacenada por el puntero: %p \n", punt);
     printf("    - La direccion de memoria de la variable: %p \n", &var);
