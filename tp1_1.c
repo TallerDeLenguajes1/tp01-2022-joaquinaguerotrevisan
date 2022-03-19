@@ -6,19 +6,22 @@
 
 int main(){
 
-    printf("----- HOLA MUNDO -----\n");
+    printf("\n----- HOLA MUNDO -----\n\n");
 
+    // Variables
     int *punt;
     int var = 10;
-
     punt = &var;
 
-    printf("- El contenido del puntero: %p \n", punt);
-    printf("- La direccion de memoria almacenada por el puntero: %p \n", punt);
-    printf("- La direccion de memoria de la variable: %p \n", &var);
-    printf("- La direccion de memoria del puntero: %p \n", &punt);
+    // Prints
+    printf("    - El contenido del puntero: %p \n", punt);
+    printf("    - La direccion de memoria almacenada por el puntero: %p \n", punt);
+    printf("    - La direccion de memoria de la variable: %p \n", &var);
+    printf("    - La direccion de memoria del puntero: %p \n", &punt);
+    printf("    - El tamano de memoria utilizado por esa variable: %d \n\n",sizeof(var));
 
-    printf("- El tamano de memoria utilizado por esa variable: %d \n",sizeof(var));
+    printf("----------------------\n\n");
+
 
     return 0;
 }
